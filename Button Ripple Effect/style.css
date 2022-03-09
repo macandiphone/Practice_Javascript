@@ -25,11 +25,11 @@ body {
 }
 
 .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: orangered;
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   left: var(--xPos);
   top: var(--yPos);
   transform: translate(-50%, -50%);
